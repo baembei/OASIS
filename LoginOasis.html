@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register | LogIn</title>
+    <link rel="stylesheet" href="LoginOasis.css">
+    <link rel="icon" href="images/oasisimg.png">
+</head>
+
+<header>
+    <h1>SOUND OASIS</h1>
+    <nav>
+        <ul class="headerLinks">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Register | Sign In</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="form-container">
+        <form action="/submit" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black; /* Любой цвет, который тебе нравится */
+}
+
+.headerLinks {
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+}
+
+.headerLinks li {
+    margin-left: 20px; /* Расстояние между пунктами меню */
+}
+
+.headerLinks a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: whitesmoke; /* Наследуем цвет от родительского элемента (body, например) */
+}
+
+.headerLinks a:hover {
+    color: gray; /* Цвет при наведении (можешь выбрать любой) */
+}
+
+
+body {
+    margin: 0;
+    background-color: #141416;}
+
+h1 {
+    color: whitesmoke; /* или любой другой цвет, который тебе нравится */
+    font-family: "fantasy"; /* Замени 'Your Chosen Font' на выбранный шрифт */
+    font-size: 45px; /* Размер шрифта, подбери под свой вкус */
+    margin: 15px; /* Убираем отступы, которые могут добавляться по умолчанию */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; /* Добавленный стиль для отступа сверху */
+}
+
+button:hover {
+    background-color: darkolivegreen;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: whitesmoke;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /*box-shadow: 0 4px 8px gray;*/
+}
+
+input, textarea {
+    background-color: #141416;
+    display: block;
+    margin: 0 auto; /* Центрирование по горизонтали */
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    width: 100%;
+}

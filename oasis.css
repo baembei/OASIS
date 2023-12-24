@@ -1,0 +1,140 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black; /* Любой цвет, который тебе нравится */
+}
+
+.headerLinks {
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+}
+
+.headerLinks li {
+    margin-left: 20px; /* Расстояние между пунктами меню */
+}
+
+.headerLinks a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: whitesmoke; /* Наследуем цвет от родительского элемента (body, например) */
+}
+
+.headerLinks a:hover {
+    color: gray; /* Цвет при наведении (можешь выбрать любой) */
+}
+
+
+body {
+    margin: 0;
+    background-color: #141416;
+}
+
+h1 {
+    color: whitesmoke; /* или любой другой цвет, который тебе нравится */
+    font-family: "fantasy"; /* Замени 'Your Chosen Font' на выбранный шрифт */
+    font-size: 45px; /* Размер шрифта, подбери под свой вкус */
+    margin: 15px; /* Убираем отступы, которые могут добавляться по умолчанию */
+}
+
+.flex-container {
+    margin: 20px;
+    display: flex;
+    height: 100vh;
+}
+
+.flex-item {
+    flex: 1; /* Занимает 50% ширины экрана */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-side {
+    background: url('images/estetika.jpg') center/cover no-repeat; /* Замени 'path/to/your/image.jpg' на путь к твоей картинке */
+    border-radius: 30px;
+
+
+}
+
+.text-side {
+    display: flex;
+    background-color: #141416; /* Любой цвет фона для текстовой стороны */
+    color: white; /* Белый цвет текста */
+    flex-direction: column; /* Устанавливаем направление столбца для flex-контейнера */
+}
+.text-side h2{
+    margin-bottom: 10px;
+}
+.text-side h4{
+    margin-top: 0;
+}
+
+
+.products-container {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 425px;
+    background-color: #0a0d0c ;
+}
+
+.product {
+    position: relative;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.product img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.product h3 {
+    /* !!!!!!!!!!!!!!!font for text under the picture!!!!!!!!!!*/
+    max-width: 250px;
+    color: whitesmoke;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    color: wheat;
+}
+
+.arrow.left {
+    left: 15px;
+}
+
+.arrow.right {
+    right: 0;
+}
+
+.arrow:hover {
+    color: blueviolet;
+}
+
+.aboutus{
+    background-color: black;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.aboutus h2{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.aboutus p{
+    color: whitesmoke;
+    margin-top: 20px;
+}
