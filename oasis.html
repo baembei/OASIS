@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome | Sound Oasis</title>
-    <link rel="stylesheet" href="oasis.css">
+    <link rel="stylesheet" href="css/oasis.css">
     <link rel="icon" href="images/oasisimg.png">
 </head>
 
@@ -20,63 +20,88 @@
 
 <body>
 
-<div class="flex-container">
-    <div class="flex-item image-side"></div>
-    <div class="flex-item text-side">
-        <h2>SOUND OASIS</h2>
-        <h4>For true music lovers</h4>
-    </div>
-</div>
-
-<div class="products-container">
-    <div class="arrow left" onclick="scrollProducts(-1)">&lt;</div>
-    <div class="product">
-        <img src="images/Tame.jpg" alt="Tame Impala | The Slow Rush">
-        <h3>Tame Impala | The Slow Rush</h3>
+    <div class="flex-container">
+        <div class="flex-item image-side"></div>
+        <div class="flex-item text-side">
+            <h2>SOUND OASIS</h2>
+            <h4>For true music lovers</h4>
+        </div>
     </div>
 
-    <div class="product">
-        <img src="images/Arctic.jpg" alt="Product 2">
-        <h3>Arctic Monkeys | Favourite Worst Nightmare</h3>
+    <!--<div class="products-container">-->
+    <!--    <div class="arrow left" onclick="scrollProducts(-1)">&lt;</div>-->
+    <!--    <div class="product">-->
+    <!--        <img src="images/Tame.jpg" alt="Tame Impala | The Slow Rush">-->
+    <!--        <h3>Tame Impala | The Slow Rush</h3>-->
+    <!--    </div>-->
+
+    <!--    <div class="product">-->
+    <!--        <img src="images/Arctic.jpg" alt="Product 2">-->
+    <!--        <h3>Arctic Monkeys | Favourite Worst Nightmare</h3>-->
+    <!--    </div>-->
+
+    <!--    <div class="product">-->
+    <!--        <img src="images/TheN.jpg" alt="The Neighbourhood | I Love You">-->
+    <!--        <h3>The Neighbourhood | I Love You</h3>-->
+    <!--    </div>-->
+
+    <!--    <div class="product">-->
+    <!--        <img src="images/Lana.jpg" alt="Lana Del Rey | Born to Die">-->
+    <!--        <h3>Lana Del Rey | Born to Die</h3>-->
+    <!--    </div>-->
+
+    <!--    <div class="product hidden">-->
+    <!--        <img src="images/Weekend.jpg" alt="The Weeknd | After Hours">-->
+    <!--        <h3>The Weeknd | After Hours</h3>-->
+    <!--    </div>-->
+
+    <!--    <div class="product hidden">-->
+    <!--        <img src="images/Joji.jpg" alt="Joji | Nectar">-->
+    <!--        <h3>Joji | Nectar</h3>-->
+    <!--    </div>-->
+
+    <!--    <div class="product hidden">-->
+    <!--        <img src="images/Gorillaz.jpg" alt="Gorillaz | Plastic Beach">-->
+    <!--        <h3>Gorillaz | Plastic Beach</h3>-->
+    <!--    </div>-->
+
+    <!--    <div class="arrow right" onclick="scrollProducts(1)">&gt;</div>-->
+    <!--</div>-->
+        <div class="slide-container">
+            <div class="slide-content">
+                <div class="card-wrapper">
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <div class="image-content">
+                                <div class="card-image">
+                                    <img src="images/Tame.jpg" alt="Tame Impala" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="name">Tame Impala | The Slow Rush</h3>
+    <!--                            <p class="description"> Imagine a fusion of electronic wizardry, psychedelic vibes,-->
+    <!--                                and retro nostalgia expertly crafted by the genius Kevin Parker. This album catapults-->
+    <!--                                you through a cosmic journey, seamlessly blending '70s grooves with a contemporary-->
+    <!--                                techno heartbeat.</p>-->
+                                <button class="button">View product</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="product">
-        <img src="images/TheN.jpg" alt="The Neighbourhood | I Love You">
-        <h3>The Neighbourhood | I Love You</h3>
+    <div class="aboutus">
+        <h2>About Us</h2>
+        <p>
+            Hey there! Welcome to our online vinyl digs. So, what's the story behind us? Well, we're not your typical vinyl shop – we're a crew of music lovers, audiophiles, and vinyl junkies on a mission to share our passion with you.
+            We're more than just a store, we're a squad of folks who live and breathe music. Sure, we've got vinyl for sale, but it's not just about that. It's about creating a space where you can swap musical tales, discover new beats, and vibe with like-minded souls.
+            Think of us as your vinyl oasis. We're not just slinging records; we're curating stories. Each vinyl slab is a slice of time, and every track is a mini-miracle. We're here to help you find that magical moment that makes your needle groove across the vinyl.
+            And hey, it's not all classical and hip-hop here. We're diving deep, offering up a mix of genres that'll make your music-loving heart skip a beat. So, dive in, explore, and let's turn those vinyl dreams into reality!
+        </p>
+
     </div>
-
-    <div class="product">
-        <img src="images/Lana.jpg" alt="Lana Del Rey | Born to Die">
-        <h3>Lana Del Rey | Born to Die</h3>
-    </div>
-
-    <div class="product hidden">
-        <img src="images/Weekend.jpg" alt="The Weeknd | After Hours">
-        <h3>The Weeknd | After Hours</h3>
-    </div>
-
-    <div class="product hidden">
-        <img src="images/Joji.jpg" alt="Joji | Nectar">
-        <h3>Joji | Nectar</h3>
-    </div>
-
-    <div class="product hidden">
-        <img src="images/Gorillaz.jpg" alt="Gorillaz | Plastic Beach">
-        <h3>Gorillaz | Plastic Beach</h3>
-    </div>
-
-    <div class="arrow right" onclick="scrollProducts(1)">&gt;</div>
-</div>
-
-<div class="aboutus">
-    <h2>About Us</h2>
-    <p>
-        Hey there! Welcome to our online vinyl digs. So, what's the story behind us? Well, we're not your typical vinyl shop – we're a crew of music lovers, audiophiles, and vinyl junkies on a mission to share our passion with you.
-        We're more than just a store, we're a squad of folks who live and breathe music. Sure, we've got vinyl for sale, but it's not just about that. It's about creating a space where you can swap musical tales, discover new beats, and vibe with like-minded souls.
-        Think of us as your vinyl oasis. We're not just slinging records; we're curating stories. Each vinyl slab is a slice of time, and every track is a mini-miracle. We're here to help you find that magical moment that makes your needle groove across the vinyl.
-        And hey, it's not all classical and hip-hop here. We're diving deep, offering up a mix of genres that'll make your music-loving heart skip a beat. So, dive in, explore, and let's turn those vinyl dreams into reality!
-    </p>
-
-</div>
 </body>
 </html>
